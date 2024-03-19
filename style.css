@@ -19,7 +19,7 @@ nav {
 }
 
 .logo {
-    color: #ecfff4;
+    color: #ff2a54;
     font-size: 32px;
     font-family: "Lilita One", sans-serif;
 }
@@ -28,9 +28,9 @@ nav {
     background-color: transparent;
     font-family: "Nunito", sans-serif;
     font-size: 20px;
-    color: white;
-    border-width: 0;
+    color: #ecfff4;
     font-weight: bold;
+    border-width: 0;
     text-decoration: none;
 }
 
@@ -55,4 +55,34 @@ nav {
 
     background-image: url(icecreambackground.png);
     height: 441px;
+}
+
+
+#h1 {
+    color:#ff2a54;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+
+
+
+
+.square {
+    background-color: ;
+    display:flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.red-square{
+background-color:white ;
+color: white;
+
+}
+
+.green-square{
+background-color:white ;
+
 }
