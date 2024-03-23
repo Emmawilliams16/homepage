@@ -68,21 +68,26 @@ nav {
 
 
 
+#showcase > div {
 
-.square {
-    background-color: ;
-    display:flex;
-    justify-content: center;
-    align-items: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 370px;
+    width: 993px;
+    gap: 29px;
+    
 }
 
-.red-square{
-background-color:white ;
-color: white;
 
-}
+button {
+   
+        background-color: pink;
+        font-family:"sulphur point";
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        border-color: white;
 
-.green-square{
-background-color:white ;
 
 }
