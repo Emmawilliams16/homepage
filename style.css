@@ -80,14 +80,35 @@ nav {
 }
 
 
-button {
+#showcase .icecream {
    
-        background-color: pink;
+        background-color: #ffa9ba;
         font-family:"sulphur point";
         font-size: 30px;
         font-weight: bold;
         color: white;
         border-color: white;
 
+}
+
+#showcase .waterice {
+        background-color: #cff6de;
+        font-family:"sulphur point";
+        font-size: 30px;
+        font-weight: bold;
+        color: #ff2a54;
+        border-color: white;
 
 }
+
+#showcase .toppings {
+        background-color: #ffa9ba;
+        font-family:"sulphur point";
+        font-size: 30px;
+        font-weight: bold;
+        color: #ecfff4;
+        border-color: white;
+
+}
+
+
