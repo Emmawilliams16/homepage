@@ -82,17 +82,17 @@ nav {
 
 #showcase .icecream {
    
-        background-color: #ffa9ba;
+        background-image: url(Rectangle\ 5.png);
         font-family:"sulphur point";
         font-size: 30px;
         font-weight: bold;
         color: white;
-        border-color: white;
+       border-color: white;
 
 }
 
 #showcase .waterice {
-        background-color: #cff6de;
+        background-image: url(Rectangle\ 6.png);
         font-family:"sulphur point";
         font-size: 30px;
         font-weight: bold;
@@ -102,7 +102,7 @@ nav {
 }
 
 #showcase .toppings {
-        background-color: #ffa9ba;
+        background-image: url(Rectangle\ 4.png);
         font-family:"sulphur point";
         font-size: 30px;
         font-weight: bold;
