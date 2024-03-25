@@ -1,5 +1,7 @@
 body {
-    font-family: "Sulphur Point"
+    font-family: "Sulphur Point";
+    font-weight: bold;
+    background-color: #ecfff4;
 }
 
 nav {
@@ -18,16 +20,12 @@ nav {
     list-style: none;
 }
 
-.logo {
-    color: #ff2a54;
-    font-size: 32px;
-    font-family: "Lilita One", sans-serif;
-}
+
 
 #main-menu button, #main-menu a {
     background-color: transparent;
-    font-family: "Nunito", sans-serif;
-    font-size: 20px;
+    font-family: "Sulphur Point";
+    font-size: 30px;
     color: #ecfff4;
     font-weight: bold;
     border-width: 0;
@@ -35,16 +33,16 @@ nav {
 }
 
 #main-menu .dropdown {
-    background-color: beige;
-    color: teal;
+    background-color: white;
+    color: #ff2a54;
     margin: 0px;
-    padding: 20px;
+    padding: 30px;
     position: absolute;
     display: none;
 }
 
 #main-menu .dropdown a {
-    color: teal;
+    color: #ff2a54;
 }
 
 #main-menu .sub-menu:hover .dropdown {
@@ -55,12 +53,15 @@ nav {
 
     background-image: url(icecreambackground.png);
     height: 441px;
+   
 }
 
 
 #h1 {
     color:#ff2a54;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Libre Franklin";
+    font-weight: bold;
+    font-size: 50px;
    
 }
 
@@ -80,34 +81,38 @@ nav {
 }
 
 
+
 #showcase .icecream {
    
         background-image: url(Rectangle\ 5.png);
         font-family:"sulphur point";
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
         color: white;
        border-color: white;
+      
 
 }
 
 #showcase .waterice {
         background-image: url(Rectangle\ 6.png);
-        font-family:"sulphur point";
-        font-size: 30px;
+        font-family:"Sulphur Point";
+        font-size: 40px;
         font-weight: bold;
         color: #ff2a54;
         border-color: white;
+       
 
 }
 
 #showcase .toppings {
         background-image: url(Rectangle\ 4.png);
-        font-family:"sulphur point";
-        font-size: 30px;
+        font-family:"Sulphur Point";
+        font-size: 40px;
         font-weight: bold;
         color: #ecfff4;
         border-color: white;
+       
 
 }
 
