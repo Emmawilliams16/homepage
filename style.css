@@ -7,13 +7,13 @@ body {
 nav {
     background-color: #ffa9ba; 
     display: flex;
-    justify-content: space-between;
-    padding: 20px 10%;
+    justify-content: right;
+    padding: 10px 10%;
 }
 
 #main-menu {
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 #main-menu li {
@@ -50,6 +50,7 @@ nav {
 }
 
 #background{
+
 
     background-image: url(icecreambackground.png);
     height: 441px;
@@ -114,6 +115,13 @@ nav {
         border-color: white;
        
 
+}
+
+.logo {
+
+    position:absolute;
+    padding-left: 5%;
+    padding-top: 2%;
 }
 
 
