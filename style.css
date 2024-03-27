@@ -8,7 +8,7 @@ nav {
     background-color: #ffa9ba; 
     display: flex;
     justify-content: right;
-    padding: 10px 10%;
+    padding:  10px 10%;
 }
 
 #main-menu {
@@ -30,6 +30,7 @@ nav {
     font-weight: bold;
     border-width: 0;
     text-decoration: none;
+    text-shadow: grey 1px 1px;
 }
 
 #main-menu .dropdown {
@@ -38,7 +39,8 @@ nav {
     margin: 0px;
     padding: 30px;
     position: absolute;
-    display: none;
+    display:none;
+
 }
 
 #main-menu .dropdown a {
@@ -54,16 +56,24 @@ nav {
 
     background-image: url(icecreambackground.png);
     height: 441px;
+    width:1440px;
+    display:flex;
+    justify-content: right;
+    
    
 }
 
 
 #h1 {
     color:#ff2a54;
-    font-family:"Libre Franklin";
-    font-weight: bold;
-    font-size: 50px;
-   
+    font-family:"Hind Siliguri";
+    font-weight: 800;
+    font-size: 45px;
+    padding-top: 20%;
+    padding-right: 50%;
+    text-shadow: 2px 2px grey;
+    
+
 }
 
 
@@ -91,6 +101,7 @@ nav {
         font-weight: bold;
         color: white;
        border-color: white;
+       text-shadow: grey 2px 2px;
       
 
 }
@@ -102,6 +113,7 @@ nav {
         font-weight: bold;
         color: #ff2a54;
         border-color: white;
+        text-shadow: grey 2px 2px;
        
 
 }
@@ -113,6 +125,7 @@ nav {
         font-weight: bold;
         color: #ecfff4;
         border-color: white;
+        text-shadow: grey 2px 2px;
        
 
 }
@@ -122,6 +135,16 @@ nav {
     position:absolute;
     padding-left: 5%;
     padding-top: 2%;
+}
+
+
+.hoursandlocation {
+
+    position: absolute;
+    padding-top: 3%;
+
+    
+   
 }
 
 
