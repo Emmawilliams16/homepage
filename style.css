@@ -56,7 +56,7 @@ nav {
 #background{
 
 
-    background-image: url(icecreambackground.png);
+    background-image: url(images/icecreambackground.png);
     height: 441px;
     width:1440px;
     display:flex;
@@ -97,7 +97,7 @@ nav {
 
 #showcase .icecream {
    
-        background-image: url(Rectangle\ 5.png);
+        background-image: url(images/Rectangle\ 5.png);
         font-family:"sulphur point";
         font-size: 40px;
         font-weight: bold;
@@ -109,7 +109,7 @@ nav {
 }
 
 #showcase .waterice {
-        background-image: url(Rectangle\ 6.png);
+        background-image: url(images/Rectangle\ 6.png);
         font-family:"Sulphur Point";
         font-size: 40px;
         font-weight: bold;
@@ -121,7 +121,7 @@ nav {
 }
 
 #showcase .toppings {
-        background-image: url(Rectangle\ 4.png);
+        background-image: url(images/Rectangle\ 4.png);
         font-family:"Sulphur Point";
         font-size: 40px;
         font-weight: bold;
