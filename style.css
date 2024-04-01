@@ -40,8 +40,10 @@ nav {
     padding: 30px;
     position: absolute;
     display:none;
+  
 
 }
+
 
 #main-menu .dropdown a {
     color: #ff2a54;
@@ -145,6 +147,13 @@ nav {
 
     
    
+}
+
+#email .form {
+    
+    font-family:"Sulphur Point";
+    color: white;
+
 }
 
 
