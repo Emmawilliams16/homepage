@@ -4,6 +4,7 @@ body {
     background-color: #ecfff4;
 }
 
+
 nav {
     background-color: #ffa9ba; 
     display: flex;
@@ -11,10 +12,12 @@ nav {
     padding:  10px 10%;
 }
 
+
 #main-menu {
     display: flex;
     gap: 30px;
 }
+
 
 #main-menu li {
     list-style: none;
@@ -40,8 +43,7 @@ nav {
     padding: 30px;
     position: absolute;
     display:none;
-  
-
+    z-index: 99;
 }
 
 
@@ -49,20 +51,18 @@ nav {
     color: #ff2a54;
 }
 
+
 #main-menu .sub-menu:hover .dropdown {
     display: block;
 }
 
+
 #background{
-
-
     background-image: url(images/icecreambackground.png);
     height: 441px;
     width:1440px;
     display:flex;
-    justify-content: right;
-    
-   
+    justify-content: right;  
 }
 
 
@@ -74,66 +74,56 @@ nav {
     padding-top: 20%;
     padding-right: 50%;
     text-shadow: 2px 2px grey;
-    
-
 }
 
 
-
-
-
 #showcase > div {
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     height: 370px;
     width: 993px;
     gap: 29px;
-    
 }
 
 
-
 #showcase .icecream {
-   
         background-image: url(images/Rectangle\ 5.png);
+        background-color: #ffa9ba;
         font-family:"sulphur point";
         font-size: 40px;
         font-weight: bold;
         color: white;
        border-color: white;
        text-shadow: grey 2px 2px;
-      
-
 }
+
 
 #showcase .waterice {
         background-image: url(images/Rectangle\ 6.png);
+        background-color: #cff6de;
         font-family:"Sulphur Point";
         font-size: 40px;
         font-weight: bold;
         color: #ff2a54;
         border-color: white;
         text-shadow: grey 2px 2px;
-       
-
 }
+
 
 #showcase .toppings {
         background-image: url(images/Rectangle\ 4.png);
+        background-color: #ffa9ba;
         font-family:"Sulphur Point";
         font-size: 40px;
         font-weight: bold;
         color: #ecfff4;
         border-color: white;
         text-shadow: grey 2px 2px;
-       
-
 }
 
-.logo {
 
+.logo {
     position:absolute;
     padding-left: 5%;
     padding-top: 2%;
@@ -141,19 +131,37 @@ nav {
 
 
 .hoursandlocation {
-
     position: absolute;
     padding-top: 3%;
-
-    
-   
 }
 
+
 #email .form {
-    
     font-family:"Sulphur Point";
     color: white;
+    font-size: 24px;
+    justify-content: right;
+}
 
+
+button {
+    color: white;
+    background-color: #ff2a54;
+    font-family: "sulphur point";
+    border-color: white;
+    font-size: 24px;
+
+}
+
+
+footer {
+    font-family: "Sulphur Point";
+    font-size: 24px;
+    color: white;
+    background-color: #ffa9ba;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 60%;
 }
 
 
