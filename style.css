@@ -19,11 +19,6 @@ nav {
 }
 
 
-#main-menu:hover {
-    text-decoration: underline;
-}
-
-
 #main-menu li {
     list-style: none;
 }
