@@ -2,7 +2,6 @@ body {
     font-family: "Sulphur Point";
     font-weight: bold;
     background-image:url(images/Rectangle\ 50.png);
-    width: 1400px;
 }
 
 
@@ -54,4 +53,32 @@ nav {
 
 #main-menu .sub-menu:hover .dropdown {
     display: block;
+}
+
+.title {
+    position: absolute;
+    font-family: "sulphur point";
+    font-size: 50px;
+    color: #ecfff4;
+    padding-left: 7%;
+    padding-top: 1%;
+
+}
+
+
+#background {
+    color: #ff2a54;
+    background-image: url(images/Rectangle\ 15.png);
+    width: 1255px;
+    height: 576px;
+    
+}
+
+
+#h1 {
+    font-size: 60px;
+    font-family:"Hind Siliguri";
+    font-weight: 700;
+    padding-left: 5%;
+    padding-top: 2%;
 }
