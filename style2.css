@@ -69,10 +69,11 @@ nav {
 #background {
     color: #ff2a54;
     background-image: url(images/Rectangle\ 15.png);
-    width: 1255px;
+    width: 1411px;
     height: 576px;
     font-family: "sulphur point";
     font-size: 24px;
+    
     
 }
 
@@ -81,7 +82,7 @@ nav {
     font-size: 60px;
     font-family:"Hind Siliguri";
     font-weight: 700;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-top: 2%;
 }
 
@@ -97,6 +98,12 @@ nav {
     margin-left: 20%;
     
     
+}
+
+
+#background .pictures {
+    height: 424px;
+    width:302px;
 }
 
 
