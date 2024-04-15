@@ -66,41 +66,113 @@ nav {
 
 }
 
-#toppings-list {
+#toppings-list > div {
     padding-left: 8%;
+    padding-right: 0%;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 50 px;
+    column-gap: 49 px;
+    row-gap: 10px;
 
 }
 
 
-#toppinglist .rainbowsprinkles {
+#toppings-list .rainbowsprinkles {
     grid-column: 1/span 1;
     grid-row: 1/span 1;
 }
 
 
-#toppinglist .chocolatesprinkles {
+#toppings-list .chocolatesprinkles {
     grid-column: 2/span 1;
     grid-row: 1/span 1;
 }
 
 
-#toppinglist .gummybears {
+#toppings-list .gummybears {
     grid-column: 3/span 1;
     grid-row: 1/span 1;
 }
 
 
-#toppinglist .browniebites {
+#toppings-list .browniebites {
     grid-column: 4/span 1;
     grid-row: 1/span 1;
 }
 
 
-#toppinglist .cookiedough {
+#toppings-list .cookiedough {
     grid-column: 5/span 1;
     grid-row: 1/span 1;
 }
+
+
+#toppings-list .crushedoreos {
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+}
+
+
+#toppings-list .mandms {
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    font-family: "Sulphur Point";
+    font-size: 24px;
+    color: white;
+    background-color: #ffa9ba;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex; 
+    gap: 47%;
+}
+
+
+#email {
+    font-family:"Sulphur Point";
+    color: white;
+    font-size: 24px;
+    justify-items: right;
+    padding-top: 2%;
+}
+
+
+button {
+    color: white;
+    background-color: #ff2a54;
+    font-family: "sulphur point";
+    border-color: white;
+    font-size: 24px;
+}
+
+
+
+#social-media {
+    padding-bottom:1%;
+    padding-top: 1%;
+    padding-left: 1%;
+    justify-content: left;
+   
+}
+
+
+
 
