@@ -92,6 +92,11 @@ nav {
 }
 
 
+#showcase .toppingslink {
+    display: block;
+}
+
+
 
 #showcase .icecream {
         background-image: url(images/Rectangle\ 5.png);
@@ -128,6 +133,8 @@ nav {
         color: #ecfff4;
         border-color: white;
         text-shadow: grey 2px 2px;
+        width: 100%;
+        height: 100%;
 }
 
 

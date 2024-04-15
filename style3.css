@@ -1,0 +1,106 @@
+body {
+    font-family: "Sulphur Point";
+    font-weight: bold;
+    background-color: #ecfff4;
+}
+
+
+nav {
+    background-color: #ffa9ba; 
+    display: flex;
+    justify-content: right;
+    padding:  10px 10%;
+}
+
+
+#main-menu {
+    display: flex;
+    gap: 30px;
+}
+
+
+#main-menu li {
+    list-style: none;
+}
+
+
+#main-menu button, #main-menu a {
+    background-color: transparent;
+    font-family: "Sulphur Point";
+    font-size: 30px;
+    color: #ecfff4;
+    font-weight: bold;
+    border-width: 0;
+    text-decoration: none;
+    text-shadow: grey 1px 1px;
+}
+
+#main-menu .dropdown {
+    background-color: white;
+    color: #ff2a54;
+    margin: 0px;
+    padding: 30px;
+    position: absolute;
+    display:none;
+    z-index: 99;
+}
+
+
+#main-menu .dropdown a {
+    color: #ff2a54;
+}
+
+
+#main-menu .sub-menu:hover .dropdown {
+    display: block;
+}
+
+.title {
+    position: absolute;
+    font-family: "sulphur point";
+    font-size: 50px;
+    color: #ecfff4;
+    padding-left: 7%;
+    padding-top: 1%;
+    text-shadow: grey 1px 1px;
+
+}
+
+#toppings-list {
+    padding-left: 8%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50 px;
+
+}
+
+
+#toppinglist .rainbowsprinkles {
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+}
+
+
+#toppinglist .chocolatesprinkles {
+    grid-column: 2/span 1;
+    grid-row: 1/span 1;
+}
+
+
+#toppinglist .gummybears {
+    grid-column: 3/span 1;
+    grid-row: 1/span 1;
+}
+
+
+#toppinglist .browniebites {
+    grid-column: 4/span 1;
+    grid-row: 1/span 1;
+}
+
+
+#toppinglist .cookiedough {
+    grid-column: 5/span 1;
+    grid-row: 1/span 1;
+}
+
