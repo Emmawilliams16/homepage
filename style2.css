@@ -132,7 +132,8 @@ footer {
 
 #email {
     font-family:"Sulphur Point";
-    color: white;
+    color: black;
+    background-color: white;
     font-size: 24px;
     justify-items: right;
     padding-top: 2%;

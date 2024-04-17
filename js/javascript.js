@@ -7,7 +7,7 @@ else {
     console.log("no jquery")
 }
 
-function music() {
-    let musicSound = new Audio('assets/audio/cat-meow.mp3');
-    meowSound.play();
+function signUp() {
+    alert("Thank you for signing up for our emails!");
+    window.close();
 }
