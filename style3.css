@@ -35,6 +35,13 @@ nav {
     text-shadow: grey 1px 1px;
 }
 
+
+#main-menu button a:hover{
+    text-decoration: underline;
+    transition: color .5s;
+}
+
+
 #main-menu .dropdown {
     background-color: white;
     color: #ff2a54;
@@ -144,6 +151,12 @@ button {
     font-family: "sulphur point";
     border-color: white;
     font-size: 24px;
+}
+
+
+button:hover {
+    color:#cff6de;
+    border-color: #cff6de;
 }
 
 
