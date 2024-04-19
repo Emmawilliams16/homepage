@@ -26,13 +26,13 @@ $("#mobile-menu-button").click(function(){
         $("#main-menu").removeClass("display-none-mobile");
         mobileMenuOpen = true;
         $("#mobile-menu-text").text("Close");
-        $("#mobile-menu-icon").attr("src", "assets/images/close.svg");
+        $("#mobile-menu-icon").attr("src", "");
     }
     //if mobile menu is open, close it
     else {
         $("#main-menu").addClass("display-none-mobile");
         mobileMenuOpen = false;
         $("#mobile-menu-text").text("Menu");
-        $("#mobile-menu-icon").attr("src", "assets/images/menu.svg");
+        $("#mobile-menu-icon").attr("src", "images/Group 27.png");
     }
 });
