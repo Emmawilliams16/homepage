@@ -26,7 +26,7 @@ $("#mobile-menu-button").click(function(){
         $("#main-menu").removeClass("display-none-mobile");
         mobileMenuOpen = true;
         $("#mobile-menu-text").text("Close");
-        $("#mobile-menu-icon").attr("src", "");
+        $("#mobile-menu-icon").attr("src", "images/ph_x-bold.png");
     }
     //if mobile menu is open, close it
     else {

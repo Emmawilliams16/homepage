@@ -13,9 +13,10 @@ nav {
 }
 
 
-#main-menu {
+.display-flex {
     display: flex;
     gap: 30px;
+    
 }
 
 
@@ -171,4 +172,58 @@ button:hover {
 
 
 
+.dropdown {
+    position: absolute;
+    background-color: white;
+    font-size: 20px;
+    padding: 5px;
+    display: none;
+    
+}
 
+
+
+.sub-menu:hover .dropdown {
+    display: block;
+
+}
+
+
+#mobile-menu-button {
+    display: none;
+
+}
+
+@media (max-width:580px) {
+    #mobile-menu-button {
+        display: block;
+        z-index: 99;
+        width: 70px;
+    }
+    .display-none-mobile {
+        display: none;
+    }
+
+    #main-menu{
+        flex-direction: column;
+        width: 100%;
+        z-index: 99;
+        align-items: end;
+
+    }
+
+    .dropdown{
+        display: block;
+        position: relative;
+      
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: end;
+    }
+    .title{
+        font-size: 30px;
+        padding-top: 5%;
+    }
+}
