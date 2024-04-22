@@ -59,7 +59,9 @@ nav {
 
 #main-menu .sub-menu:hover .dropdown {
     display: block;
+
 }
+
 
 
 #background {
@@ -245,16 +247,6 @@ button:hover {
 
 
 
-
-
-
-
-
-button {
-    background-color: transparent;
-    border:0px;
-    font-family: "Sulphur Point";
-}
 
 
 
