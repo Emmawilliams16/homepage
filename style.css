@@ -301,4 +301,36 @@ button:hover {
         flex-direction: column;
         align-items: end;
     }
+
+    form{
+        font-size: 15px;
+    }
+       
+
+    #email{ 
+        font-size: 15px;
+        width: 130px;
+    }
+
+    button{
+        font-size:15px;
+    }
+
+    #social-media{
+        width: 200px;
+        height: 20px;
+        display: flex;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
