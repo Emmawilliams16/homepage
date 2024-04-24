@@ -257,7 +257,10 @@ button:hover {
         display: flex;
         
     }
-
+    
+    footer{
+        width: 500px;
+    }
 
 
 
