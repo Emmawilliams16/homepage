@@ -238,7 +238,7 @@ button:hover {
 
     form{
         font-size: 15px;
-        padding-right: 5px;
+        padding-right: 50px;
     }
        
 
@@ -257,7 +257,7 @@ button:hover {
         display: flex;
         
     }
-    
+
     footer{
         width: 500px;
     }
